@@ -169,5 +169,7 @@ cython_debug/
 *.log
 *.xls
 *.pdf
+*.png
+*.jpeg
 data/
 output/
