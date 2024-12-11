@@ -1,0 +1,24 @@
+digraph {
+	A [label=Start]
+	B [label="Load Data"]
+	C [label="Remove Inconsistent Recipes"]
+	D [label="Normalize Text"]
+	E [label="Whitespace Management"]
+	F [label="Validate Recipe Structure"]
+	G [label="Standardize Ingredients"]
+	H [label="Deduplicate Recipes"]
+	I [label="Check Spelling"]
+	J [label="Save Clean Data"]
+	K [label=End]
+	A -> B
+	B -> C
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+	I -> J
+	J -> K
+}
